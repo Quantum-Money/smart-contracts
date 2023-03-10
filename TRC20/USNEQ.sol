@@ -11,11 +11,11 @@ import "./TRC20Detailed.sol";
  * Note they can later distribute these tokens as they wish using `transfer` and other
  * `TRC20` functions.
  */
-contract USNQTRC20 is TRC20, TRC20Detailed {
+contract USNEQTRC20 is TRC20, TRC20Detailed {
 
     /**
      * @dev Constructor that gives msg.sender all of existing tokens.
      */
-    constructor () public TRC20Detailed("Quantum", "USNQ", 18) {
+    constructor () public TRC20Detailed("EQuicoin USN", "USNEQ", 18) {
     }
 }
